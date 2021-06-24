@@ -1,6 +1,6 @@
 .modal-wrapper.active{
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal-wrapper{
@@ -12,6 +12,9 @@
   display: flex;
 
   background: rgba(4, 9, 17, .8);
+
+  visibility: hidden;
+  opacity: 0;
 }
 
 .modal-wrapper .modal{
